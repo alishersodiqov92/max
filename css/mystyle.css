@@ -1,0 +1,120 @@
+/* umumiy style */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: #34495e;
+}
+/*avtorizatsiya uchun*/
+.ali {
+    width: 300px;
+    padding: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #191919;
+    text-align: center;
+    border-radius: 30px;
+}
+.ali {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+.ali input[type="text"], .ali input[type="password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #3498db;
+    padding: 14px 10px;
+    width: 200px;
+    outline: none;
+    color: #fff;
+    border-radius: 28px;
+    transition: 0.25s;
+}
+.ali input[type="text"]:focus, .ali input[type="password"]:focus {
+    width: 240px;
+    border-color: #2ecc71;
+} 
+.ali input[type="submit"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid #2ecc71;
+    padding: 14px 40px;
+    width: 200px;
+    outline: none;
+    color: #fff;
+    border-radius: 28px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.ali input[type="submit"]:hover {
+    background: #2ecc71;
+}
+.ali input[type="text"]:hover {
+  background: #0fbfc5;
+}
+.ali input[type="password"]:hover {
+    background: #0fbfc5;;
+}
+
+
+/* index html */
+
+#navbar {
+    background-color: #333;
+    color: #fff;
+    overflow: auto;
+}
+#navbar a {
+    color: #fff;
+}
+#navbar ul {
+    float: right;
+    list-style: none;
+}
+#navbar ul li {
+    float: left;
+}
+#navbar ul li a {
+    display: inline-block;
+    padding: 25px;
+}
+#navbar ul li a:hover,
+#navbar ul li a.curent {
+    background-color: #444;
+    color: #f7c08a;
+    border-radius: 24px;
+}
+.text-primary {
+    color: #f7c08a;
+}
+#navbar h1 {
+    float: left;
+    padding-top: 20px;
+    text-align: center;
+}
+.container {
+    max-width: 1100px;
+    margin: auto;
+
+}
+
+
+
+/* img1 style*/
+
+#imga {
+    background-image: url('../img/git.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 600px;
+}
